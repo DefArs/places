@@ -1,0 +1,31 @@
+.tabs {
+  // internal variables
+  $padding-top-bottom: 7px;
+  $padding-right-left: 17px;
+
+  $padding-top-bottom2: calc($padding-top-bottom - 2px);
+  $padding-right-left2: calc($padding-right-left - 2px);
+
+  display: flex;
+
+  &__content {
+    padding: $padding-top-bottom $padding-right-left;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  &__content-1 {
+    background-color: $green;
+    color: $white;
+  }
+
+  &__content-2 {
+    border: 2px solid $green;
+    padding: $padding-top-bottom2 $padding-right-left2;
+    color: $green;
+  }
+}
+
+.tab__hidden {
+  display: none;
+}

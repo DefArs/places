@@ -1,1 +1,1 @@
-# hotels
+# Places

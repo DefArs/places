@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 h1 {
@@ -37,13 +37,9 @@ img {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1270px;
   width: 80%;
   margin: 0 auto;
-}
-
-.margin-bottom {
-  margin-bottom: 100px;
 }
 
 .sr-only {

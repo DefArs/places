@@ -1,0 +1,31 @@
+/*Header*/
+header {
+  .space {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 30%;
+  }
+
+  .logo {
+    width: 60px;
+  }
+
+  .menu {
+    align-self: center;
+    ol {
+      display: flex;
+      gap: 40%;
+      font-size: 1.5rem;
+    }
+
+    a{
+      color: $dark-green;
+      font-weight:bold;
+    }
+    a:hover{
+      color: $green-lemon;
+      text-decoration: underline;
+    }
+  }
+}

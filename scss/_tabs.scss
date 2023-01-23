@@ -2,11 +2,13 @@
   // internal variables
   $padding-top-bottom: 7px;
   $padding-right-left: 17px;
+  $border: 4px;
 
-  $padding-top-bottom2: calc($padding-top-bottom - 2px);
-  $padding-right-left2: calc($padding-right-left - 2px);
+  $padding-top-bottom2: calc($padding-top-bottom - $border);
+  $padding-right-left2: calc($padding-right-left - $border);
 
   display: flex;
+  gap: 10px;
 
   &__content {
     padding: $padding-top-bottom $padding-right-left;

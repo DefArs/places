@@ -1,3 +1,7 @@
+h2{
+  color: white;
+}
+
 .details{
     background-color: $green-light;
     padding: 1.25rem 2.125rem; //20px 34px
@@ -16,16 +20,24 @@
 }
 
 .position{
-  bottom: 540px;
+  bottom: 440px;
   position: relative;
   right: -449px;
 }
 
 .name{
   &__hotel-one{
+    bottom: 200px;
+    left: 330px;
+    position: absolute;
+  }
+}
 
-    z-index: 1;
-        bottom: 550px;
+.name{
+  &__hotel-two{
+    bottom: 160px;
+    left: 100px;
+    position: absolute;
   }
 }
 

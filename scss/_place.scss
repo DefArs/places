@@ -16,7 +16,36 @@
 }
 
 .position{
+  bottom: 540px;
   position: relative;
-  bottom: 439px;
   right: -449px;
+}
+
+.name{
+  &__hotel-one{
+
+    z-index: 1;
+        bottom: 550px;
+  }
+}
+
+
+@media (max-width: 800px){
+
+  .select{
+    &__one{
+      width: 260px;
+    }
+  }
+
+  .select{
+    &__two{
+      width: 240px;
+    }
+  }
+
+  .position{
+    bottom: 250px;
+    right: -260px;
+  }
 }

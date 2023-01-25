@@ -1,4 +1,3 @@
-
 /* gallery places*/
 
 section {
@@ -19,68 +18,3 @@ section {
   font-size: 1.75rem;
   font-weight:500;
 }
-
-h2{
-  color: white;
-}
-
-.details{
-    background-color: $green-light;
-    padding: 1.25rem 2.125rem; //20px 34px
-}
-
-.select{
-  &__one{
-    width: 450px;
-  }
-}
-
-.select{
-  &__two{
-    width: 430px;
-  }
-}
-
-.position{
-  bottom: 440px;
-  position: relative;
-  right: -449px;
-}
-
-.name{
-  &__hotel-one{
-    bottom: 200px;
-    left: 330px;
-    position: absolute;
-  }
-}
-
-.name{
-  &__hotel-two{
-    bottom: 160px;
-    left: 100px;
-    position: absolute;
-  }
-}
-
-
-@media (max-width: 800px){
-
-  .select{
-    &__one{
-      width: 260px;
-    }
-  }
-
-  .select{
-    &__two{
-      width: 240px;
-    }
-  }
-
-  .position{
-    bottom: 250px;
-    right: -260px;
-  }
-}
- main

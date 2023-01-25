@@ -1,63 +1,38 @@
 h2{
-  color: white;
+  color: $white;
 }
 
 .details{
-    background-color: $green-light;
-    padding: 1.25rem 2.125rem; //20px 34px
-}
-
-.select{
-  &__one{
-    width: 450px;
-  }
-}
-
-.select{
-  &__two{
-    width: 430px;
-  }
-}
-
-.position{
-  bottom: 440px;
-  position: relative;
-  right: -449px;
+  background-color: $green-light;
+  padding: 1.25rem 2.125rem; //20px 34px
 }
 
 .name{
   &__hotel-one{
-    bottom: 200px;
-    left: 330px;
-    position: absolute;
+    align-items: center;
+    background: url(../assets/img/gallery-places/hotelcalifornia.png);
+    background-position: center;
+    height: 526px;
+    width: 460px;
   }
 }
 
 .name{
   &__hotel-two{
-    bottom: 160px;
-    left: 100px;
-    position: absolute;
+    align-items: center;
+    background: url(../assets/img/gallery-places/hotelresort.png);
+    background-position: center;
+    height: 526px;
+    top: 300px;
+    width: 460px;
   }
 }
 
+.center{
+  text-align: center;
+}
 
-@media (max-width: 800px){
+.display{
+    display:flex;
 
-  .select{
-    &__one{
-      width: 260px;
-    }
-  }
-
-  .select{
-    &__two{
-      width: 240px;
-    }
-  }
-
-  .position{
-    bottom: 250px;
-    right: -260px;
-  }
 }

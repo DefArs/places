@@ -1,25 +1,3 @@
-
-/* gallery places*/
-
-section {
-  .gallery-gap {
-    margin: 40px auto 40px;
-  }
-
-  .gallery__ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px 78px;
-  }
-}
-
-.information{
-  background-color: #77B176;
-  padding: 70px 30px;
-  font-size: 1.75rem;
-  font-weight:500;
-}
-
 h2{
   color: white;
 }
@@ -83,4 +61,3 @@ h2{
     right: -260px;
   }
 }
- main

@@ -1,0 +1,29 @@
+// tabs rooms
+.room-bcgk {
+  background: url(../assets/img/gallery-hotel/background-tab-hotel.png) no-repeat center;
+  background-size: cover;
+  padding: 3.75em 1.5625em;
+}
+
+.room__ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, .7fr));
+  gap: 23px;
+  place-content: center;
+  
+  li {
+    border: 3px solid $golden;
+    padding: 2.5em;
+    color: $white;
+  }
+}
+
+@media (max-width: 960px) {
+  .room-bcgk {
+    background: none;
+  }
+  
+  .room__ul * {
+    color: $black;
+  }
+}

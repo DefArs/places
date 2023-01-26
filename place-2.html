@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,8 +25,8 @@
             <li><a href="#">Home</a></li>
 
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Hotels</a></li>
-            <li><a href="#">Places</a></li>
+            <li><a href="hotel-1.html">Hotels</a></li>
+            <li><a href="place-2.html">Places</a></li>
           </ol>
         </nav>
       </div>
@@ -54,32 +55,61 @@
       <div class="tabs__content tabs__content-2">Hotels</div>
     </div>
 
+
     <div class="content">
       <div class="content__tab-1">
         <!-- content... -->
-        <p class="information">Lorem ipsum dolor sit amet consectetur adipiscing elit leo sagittis consequat, mus dui
-          potenti
-          velit natoque dapibus nascetur pellentesque class.Lorem ipsum dolor sit amet consectetur adipiscing elit leo
-          sagittis consequat, mus dui potenti velit natoque dapibus nascetur pellentesque class.Lorem ipsum dolor sit
+        <p class="information">Lorem ipsum dolor sit amet consectetur adipiscing elit leo sagittis consequat, mus
+          dui potenti
+          velit natoque dapibus nascetur pellentesque class.Lorem ipsum dolor sit amet consectetur adipiscing elit
+          leo
+          sagittis consequat, mus dui potenti velit natoque dapibus nascetur pellentesque class.Lorem ipsum dolor
+          sit
           amet consectetur adipiscing elit leo sagittis consequat, mus dui potenti velit natoque dapibus nascetur
-          pellentesque class.Lorem ipsum dolor sit amet consectetur adipiscing elit leo sagittis consequat, mus dui
+          pellentesque class.Lorem ipsum dolor sit amet consectetur adipiscing elit leo sagittis consequat, mus
+          dui
           potenti velit natoque dapibus nascetur pellentesque class mus dui potenti velit natoque dapibus nascetur
-          pellentesque class.Lorem ipsum dolor sit amet consectetur adipiscing elit leo sagittis consequat, mus dui
+          pellentesque class.Lorem ipsum dolor sit amet consectetur adipiscing elit leo sagittis consequat, mus
+          dui
           potenti velit natoque dapibus nascetur pellentesque class</p>
       </div>
 
-      <div class="content__tab-2 tab__hidden">
-        <a href="hotel-1.html">
-          Hotel California
-          <!-- background -->
-        </a>
-        <a href="hotel-2.html">
-          Hotel Risort
-          <!-- background -->
-        </a>
+       <div class="content__tab-2 tab__hidden">
+        <div class="flex-tab2">
+          <a href="hotel-1.html" class="hotel hotel__link-1 flex-tab2">
+            <h2>Hotel Resort</h2>
+          </a>
+          <a href="hotel-2.html" class="hotel hotel__link-2 flex-tab2">
+              <h2>Hotel Cabaña</h2>
+          </a>
+        </div>
       </div>
     </div>
   </section>
+
+  <footer class="footer__bg">
+    <div class="container footer__bg-container">
+      <div class="contact-container">
+        <h2 class="contact-info">Contact</h2>
+        <p class="contact-info">companycontact@greenservice.com</p>
+        <p class="contact-info">+506 07 42 87 45</p>
+        <p class="contact-info">Escazú, San José, Costa Rica</p>
+        <div>
+          <img class="social-media__icon" src="assets/icons/facebook-icon.png" alt="">
+          <img class="social-media__icon" src="assets/icons/instagram-icon.png" alt="">
+          <img class="social-media__icon" src="assets/icons/twitter-icon.png" alt="">
+          <img class="social-media__icon" src="assets/icons/tiktok-icon.png" alt="">
+        </div>
+      </div>
+      <div class="company-info">
+        <label class="company-info" for="subscribe">Subscribe to our newsletter</label>
+        <input class="company-info company__form" type="email" name="subscribe" placeholder="Enter your email">
+        <a class="company-info" href="#">Terms & conditions</a>
+        <img class="company__icon" src="assets/icons/logo-mini.png" alt="">
+      </div>
+    </div>
+  </footer>
 </body>
 <script src="js/tab.js"></script>
+
 </html>

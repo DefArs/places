@@ -1,4 +1,7 @@
 /* gallery places*/
+h2{
+  color: $white;
+}
 
 section {
   .gallery-gap {
@@ -17,4 +20,29 @@ section {
   padding: 70px 30px;
   font-size: 1.75rem;
   font-weight:500;
+}
+
+.content__tab-2 {
+  border: 2px solid ;
+
+  .hotel {
+    height: 400px;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+    
+    &__link-1 {
+      background: url(../assets/img/gallery-places/california.png) no-repeat center;
+      background-size: cover;
+    }
+    
+    &__link-2 {
+      background: url(../assets/img/gallery-places/resort.png) no-repeat center;
+      background-size: cover;
+    }
+  }
+}
+
+.flex-tab2{
+  display: flex;
 }

@@ -1,0 +1,39 @@
+.enquiries {
+  background-image: url(../assets/img/gallery-hotel/background-hotel-form.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.enquiries__form {
+  color: $white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.form__field {
+  margin: 8px 0;
+  padding: 12px 20px;
+  width: 100%;
+}
+
+.form__field--white {
+  background: none;
+  border: none;
+  border-bottom: 2px $white solid;
+  color: $white;
+  padding: 0;
+  width: 50%;
+}
+
+.submit__button {
+  background-color: $white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  height: 48px;
+  margin: 65px 0;
+  width: 175px;
+}

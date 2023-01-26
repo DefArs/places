@@ -12,6 +12,11 @@
     padding-left: 2.125em;
     background: url(../assets/icons/location.svg) no-repeat left;
     color: $golden;
+    display: inline;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
   
 }

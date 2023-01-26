@@ -1,9 +1,9 @@
 # Practica #1- Hotel
 
-Jason Porras
-Marilyn Mena
-Melanie Lopez
-Victor Peña
+- Jason Porras
+- Marilyn Mena
+- Melanie Lopez
+- Victor Peña
 
 Web site: https://defars.github.io/places/
 

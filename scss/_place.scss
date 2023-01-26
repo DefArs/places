@@ -1,8 +1,4 @@
 /* gallery places*/
-h2{
-  color: $white;
-}
-
 section {
   .gallery-gap {
     margin: 40px auto 40px;
@@ -45,4 +41,8 @@ section {
 
 .flex-tab2{
   display: flex;
+}
+
+.color-titile{
+  color:$white;
 }
